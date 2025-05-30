@@ -22,7 +22,9 @@
 
 6. What’s the average age?
 - 25.5 yrs old
-What’s the oldest and youngest athlete?
+7. What’s the oldest and youngest athlete?
 - 10-97 yrs old
-Are there any columns with missing or strange values?
+8. Are there any columns with missing or strange values?
 - someone being 25kg. someone being 97 yrs old.
+9. Research what three of the lesser-known codes stand for:
+- MRI; Mauritius...SAM; Samoa...TOG; Togo
