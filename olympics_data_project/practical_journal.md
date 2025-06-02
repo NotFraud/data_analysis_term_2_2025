@@ -53,3 +53,18 @@
 - someone being 25kg. someone being 97 yrs old.
 9. Research what three of the lesser-known codes stand for:
 - MRI; Mauritius...SAM; Samoa...TOG; Togo
+
+## Activities D
+
+1. What do these filters do?
+- These filters create 2 new dataframes, 1 for female people only, the other for people over 35 yrs old.
+2. How many rows were returned?
+- female_athletes; 74522...older_athletes; 16384
+3. Write a filter for athletes from Australia in Swimming
+- australian_swimmers = df[(df['Team'] == 'Australia') & (df['Sport'] == 'Swimming')]
+4. Sort by Height then Weight and display top 10.
+- Sorting by weight would negate the whole height sort? But here:
+- sorted_by_height = df.sort_values(by='height', ascending=False)
+- sorted_by_weight = sorted_by_height.sort_values(by='weight', ascending=False)
+- print(sorted_by_weight['Name'].head(10))
+5. Which sport had the most female participants?
