@@ -14,6 +14,11 @@ df = pd.read_csv("athlete_events.csv")
 
 # print(f'The lengths {len(female_athletes)}, {len(older_athletes)}')
 
-#which had most female athletes?
-sport_by_female_athletes = df[df('Sex')['Female']].groupby('Sport')
-print(medals_by_team.sort_values(ascending=False).head())
+# #which had most female athletes?
+# sport_by_female_athletes = df[df('Sex')['Female']].groupby('Sport')
+# # print(medals_by_team.sort_values(ascending=False).head())
+# most_frequent_sport = df[df['Sex'] == 'F']['Sport'].value_counts().idxmax()
+
+# print(most_frequent_sport)
+median_age_by_year = df.groupby('Sex')['Weight'].median()
+print(median_age_by_year)

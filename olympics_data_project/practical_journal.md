@@ -68,3 +68,9 @@
 - sorted_by_weight = sorted_by_height.sort_values(by='weight', ascending=False)
 - print(sorted_by_weight['Name'].head(10))
 5. Which sport had the most female participants?
+- Athletics
+
+## Activities E
+
+1. Create a new group that shows average weight by Sex and Sport
+- 
