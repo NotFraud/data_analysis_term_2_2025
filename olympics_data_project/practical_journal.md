@@ -73,4 +73,22 @@
 ## Activities E
 
 1. Create a new group that shows average weight by Sex and Sport
+- avg_height = df.groupby('Sport')['Weight'].mean().sort_values(ascending=False)
+- avg_height = df.groupby('Sex')['Weight'].mean().sort_values(ascending=False)
+2. Try exporting: All athletes under 18, All athletes who won a gold medal
+- minors = df[df['Age'] < '18']
+- minors.to_csv('u18_athletes.csv', index=False)
 - 
+- gold_winners = df[df['Medal'] == 'Gold']
+- gold_winners.to_csv('gold_winner_athletes.csv', index=False)
+
+### Reflection of Activites E
+
+1. What was the easiest filtering task and why?
+- The first one where you created a new df with one column with specific row values.
+2. What was the most difficult grouping or sorting task?
+- The 'groupby' task was the most difficult as it wasn't explained at all how groupby works (unless I didn't see it [which i might've]) so I had to do a little research on how to use it.
+3. What trends surprised you in the Olympic data?
+- I was surprised by the amounht of outlying values there were, from age to height to weight.
+4. What kinds of real-world questions could this kind of analysis help answer?
+- This analysis could help answer questions of 
