@@ -89,6 +89,11 @@
 2. What was the most difficult grouping or sorting task?
 - The 'groupby' task was the most difficult as it wasn't explained at all how groupby works (unless I didn't see it [which i might've]) so I had to do a little research on how to use it.
 3. What trends surprised you in the Olympic data?
-- I was surprised by the amounht of outlying values there were, from age to height to weight.
+- I was surprised by the amount of outlyinhg values there were, from age to height to weight.
 4. What kinds of real-world questions could this kind of analysis help answer?
 - This analysis could help answer questions of 
+
+## Week 4
+
+- The Medal, Weight and Height columns have the most missing values.
+- 
