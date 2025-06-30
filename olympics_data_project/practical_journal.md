@@ -96,4 +96,15 @@
 ## Week 4
 
 - The Medal, Weight and Height columns have the most missing values.
-- 
+- The amout of rows missing critical data were: 64,263
+2. What are the pros and cons of dropping data?
+- pros: avoid errors, provide whole datasets
+- cons: inaccuracies in analysis
+3. Did cleaning improve the dataset? What questions could now be answered more confidently?
+- Yes, it allowed me to more confidently rely on points of data, passing errors less often when looking for results.
+4. What was the dirtiest column in the dataset?
+- Medal column, it has the most missing values.
+5. How did you decide when to drop vs fix missing data?
+- If you needed the rows, then you'd fix it rather than drop it, as otherwise you'd be missing data.
+6. Why is data cleaning so important in real-world projects?
+- So that errors dont occur and you can find trends with whole data.

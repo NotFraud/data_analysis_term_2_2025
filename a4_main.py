@@ -5,7 +5,7 @@ df = pd.read_csv("athlete_events.csv")
 
 # Count missing values in each column
 print(df.isnull().sum())
-print(df.shape)
+print(f'df shape: {df.shape}')
 # Drop rows missing both height and weight
 df_cleaned = df.dropna(subset=['Height', 'Weight'])
-print(df_cleaned.shape)
+print(f'cleaned df shape: {df_cleaned.shape}')
